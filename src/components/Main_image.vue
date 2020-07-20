@@ -101,7 +101,7 @@ export default {
   background-color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   #main_text {
     font-size: 23px;
     -ms-grid-row: 2;
@@ -148,6 +148,15 @@ export default {
     font-weight: 100;
     color: white;
     text-shadow: 20px 10px 14px #000000;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 900px)  {
+  #main_text {
+    font-size: 68px;
+    }
+    .center_text #side_text {
+    font-size: 30px;
+    
   }
 }
 </style>

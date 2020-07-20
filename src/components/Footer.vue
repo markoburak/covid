@@ -1,5 +1,6 @@
 <template>
-          <footer>
+
+        <footer>
             <div class="center_footer_text">
                 <h1 id="footer_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</h1>
             </div>
@@ -13,7 +14,10 @@
                 </div>
             </div>
             <div class="center_image">
-                <img id="CEI_logo" src="../assets/CEI.png" alt="">
+                <div class="block">
+                    <img id="CEI_logo" src="../assets/CEI.png" alt="">
+                    <img id="stop_logo" src="../assets/stop_covid.png" alt="">
+                </div>
             </div>
         </footer>
 </template>
@@ -91,12 +95,31 @@ footer .center_image {
   display: grid;
   -ms-flex-line-pack: center;
       align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   grid-row: 2/4;
   -ms-grid-column: 8;
   -ms-grid-column-span: 4;
   grid-column: 8/12;
+}
+
+footer .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer #CEI_logo {
+  margin-right: 20px;
+  height: 140px;
+}
+
+footer #stop_logo {
+  margin-left: 20px;
+  height: 140px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -112,12 +135,60 @@ footer .center_image {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  footer footer .social {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   footer #CEI_logo {
+    margin-right: 20px;
+    height: 40px;
+  }
+  footer #stop_logo {
+    margin-left: 20px;
     height: 40px;
   }
   footer #footer_text {
     text-align: center;
     font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  footer {
+    display: block;
+    margin-top: 80px;
+  }
+  footer .ico {
+    height: 40px;
+  }
+  footer .social {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .center_image {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  #CEI_logo {
+    margin-right: 20px;
+    height: 40px;
+  }
+  #stop_logo {
+    margin-left: 20px;
+    height: 40px;
+  }
+  footer #footer_text {
+    text-align: center;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 900px) {
+  footer #CEI_logo {
+    height: 140px;
   }
 }
 </style>

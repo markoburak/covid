@@ -1,27 +1,30 @@
 <template>
         <div class="cards">
             <div class="card">
-                <img src="../assets/sample1.jpg" alt="">
+                <img src="../assets/covid_planet.png" alt="">
                 <div class="title">
-                    <h1 class="title_text">Lorem Ipsum is simply </h1>
+                    <router-link to="/applicant"><h1 class="title_text"><u>General information</u></h1></router-link>
                 </div>
                 <div class="article">
-                    <h3 class="article_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </h3>
+                   <h3 class="article_text">Two countries will participate in the STOP COVID 19 project. <br><br> Ukraine is represented by Lviv Polytechnic National University and Danylo Halytsky Lviv National Medical University.<br><br> Belarus is represented by Belarus State
+                        Economic University.
+                    </h3>
                 </div>
             </div>
             <div class="card">
-                <img src="../assets/Coronavirus-test-tube.png" alt="">
+                <img src="../assets/covid_mask.png" alt="">
                 <div class="title">
-                    <h1 class="title_text">Lorem Ipsum is simply </h1>
+                    <router-link to="/applicant"><h1 class="title_text"><u>Description of the activity</u></h1></router-link>
                 </div>
                 <div class="article">
-                    <h3 class="article_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </h3>
-                </div>
+                     <h3 class="article_text">The implementation of our ideas will allow us to prove the patterns of dependence on the prevalence of COVID 19 in the territory of different countries. <br><br> Depending on the presence in humans of certain antibodies to influenza
+                        virus, tuberculosis, which may be correlated with a particular human blood group.</h3>
+                  </div>
             </div>
             <div class="card">
-                <img src="../assets/corona.jpg" alt="">
+                <img src="../assets/covid_small.jpg" alt="">
                 <div class="title">
-                    <h1 class="title_text">Lorem Ipsum is simply </h1>
+                    <router-link to="/applicant"><h1 class="title_text"><u>Results</u></h1></router-link>
                 </div>
                 <div class="article">
                     <h3 class="article_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </h3>
@@ -43,21 +46,21 @@ export default {
 .card {
   -ms-flex-line-pack: justify;
       align-content: space-between;
-  width: 380px;
-  height: 652px;
+  width: 356px;
+  height: 682px;
   background-color: #E2E2E2;
   border-radius: 20px;
-  margin: 8px;
+  margin: 20px;
 }
 
 .card img {
-  width: 380px;
-  height: 310px;
+  width: 356px;
+  height: 260px;
   border-radius: 20px 20px 0px 0px;
 }
 
 .card .title {
-  height: 134px;
+  height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,26 +109,27 @@ export default {
   width: 80%;
   margin: auto;
 }
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 520px) {
   .cards {
     width: 100%;
     margin: auto;
+    display: flex;
+    justify-content: center;
   }
   .card {
-    width: 360px;
-    height: 550px;
+    width: 300px;
+    height: 450px;
     background-color: #E2E2E2;
     border-radius: 20px;
-    margin: 40px 40px 0px 0px;
+    margin: 40px 0px 40px 0px;
   }
   .card img {
-    width: 360px;
-    height: 310px;
+    width: 300px;
+    height: 200px;
     border-radius: 20px 20px 0px 0px;
   }
   .card .title {
-    height: 90px;
+    height: 60px;
   }
   .card .title_text {
     text-align: center;
@@ -133,7 +137,71 @@ export default {
   }
   .card .article_text {
     font-size: 10px;
-    font-weight: 600;
+    font-weight: 500;
   }
+}
+@media only screen and (max-width: 900px) and (min-width: 520px)  {
+.cards {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    width: 300px;
+    height: 450px;
+    background-color: #E2E2E2;
+    border-radius: 20px;
+    margin: 0px 40px 40px 40px;
+  }
+  .card img {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .card .title {
+    height: 60px;
+  }
+  .card .title_text {
+    text-align: center;
+    font-size: 14px;
+  }
+  .card .article_text {
+    font-size: 10px;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 900px)  {
+  .cards {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    width: 300px;
+    height: 450px;
+    background-color: #E2E2E2;
+    border-radius: 20px;
+    margin: 0px 40px 40px 40px;
+  }
+  .card img {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .card .title {
+    height: 60px;
+  }
+  .card .title_text {
+    text-align: center;
+    font-size: 14px;
+  }
+  .card .article_text {
+    font-size: 10px;
+    font-weight: 500;
+  }
+
 }
 </style>

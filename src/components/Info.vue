@@ -5,7 +5,8 @@
                 </h1>
             </div>
             <div class="center_side_text">
-                <h2 id="side_info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h2>
+                <h2 id="side_info">The project has use case, implemented in Ukraine and Belarus. STOP COVID 19 activities will run from June 2020 to December 2020 <br><br> The information about health and seek persons in Lviv region, Western Ukraine and Belarus will be
+                    collected and processed.</h2>
             </div>
         </div>
 </template>
@@ -71,17 +72,17 @@ export default {
       align-content: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .info {
     margin-bottom: 50px;
     display: block;
   }
   #concern {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
   }
   #side_info {
-    font-size: 10px;
+    font-size: 8px;
   }
   .center_concern {
     padding-top: 70px;
