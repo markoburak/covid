@@ -11,7 +11,7 @@
             </div>
             <div class="local_context">
                 <p class="para">
-                    &nbsp;&nbsp;&nbsp;&nbsp;Lviv Polytechnic National University (LPNU), Ukraine, http://lp.edu.ua is one of the oldest technical educational institution in Eastern Europe. LPNU is ranked among top 5 technical universities in Ukraine. LPNU consists of 21
+                    &nbsp;&nbsp;&nbsp;&nbsp;Lviv Polytechnic National University (LPNU), Ukraine, <a href="http://lp.edu.ua"><u>http://lp.edu.ua</u></a> is one of the oldest technical educational institution in Eastern Europe. LPNU is ranked among top 5 technical universities in Ukraine. LPNU consists of 21
                     education and scientific institutes, 85 scientific and research, testing and branch laboratories. <br>&nbsp;&nbsp;&nbsp;&nbsp;The University has 102 departments, 35000 students including 11000 students of IT specialties,
                     and over 2000 academic and pedagogical staff. LPNU has participated in several Tempus, EU FP7, H2020 projects. We are establishing the Innovation office and innovation support service within the UNI4INNO Tempus project. Over the past
                     five years, researchers of Lviv Polytechnic University have implemented over 50 grants and projects, which were received for research work from foreign institutions and within European programs, more than 40 economic contracts on the
@@ -34,7 +34,7 @@
             </div>
             <div class="local_context">
                 <p class="para">
-                    &nbsp;&nbsp;&nbsp;&nbsp;Danylo Halytsky Lviv National Medical University (LNMU) - http://www.meduniv.lviv.ua/ was founded in 1661. It is a modern diversified higher medical education institution with a powerful research, material and technical facilities.
+                    &nbsp;&nbsp;&nbsp;&nbsp;Danylo Halytsky Lviv National Medical University (LNMU) - <a href="http://www.meduniv.lviv.ua/"><u>http://www.meduniv.lviv.ua/</u></a> was founded in 1661. It is a modern diversified higher medical education institution with a powerful research, material and technical facilities.
                     The University has over 19000 students, including more than 900 foreign students. <br> &nbsp;&nbsp;&nbsp;&nbsp;LNMU holds top positions in the rankings of higher educational institutions and medical schools of Ukraine.
                     The University won the second place among all medical schools of Ukraine and the second place among all medical universities of Ukraine, according to the international database Scopus. LNMU received the Grand Prix "Leader of International
                     Activities" at the sixth international exhibition "Modern educational establishments". LNMU consists of 6 faculties, Medical College, 75 departments, Dental Medical Center, teaching drugstore, botanical garden, Central Research Laboratory

@@ -14,7 +14,7 @@
             <div class="card">
                 <img src="../assets/covid_mask.png" alt="">
                 <div class="title">
-                    <router-link to="/applicant"><h1 class="title_text"><u>Description of the activity</u></h1></router-link>
+                    <router-link to="/description"><h1 class="title_text"><u>Description of the activity</u></h1></router-link>
                 </div>
                 <div class="article">
                      <h3 class="article_text">The implementation of our ideas will allow us to prove the patterns of dependence on the prevalence of COVID 19 in the territory of different countries. <br><br> Depending on the presence in humans of certain antibodies to influenza
@@ -24,7 +24,7 @@
             <div class="card">
                 <img src="../assets/covid_small.jpg" alt="">
                 <div class="title">
-                    <router-link to="/applicant"><h1 class="title_text"><u>Results</u></h1></router-link>
+                    <router-link to="/results"><h1 class="title_text"><u>Results</u></h1></router-link>
                 </div>
                 <div class="article">
                     <h3 class="article_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </h3>

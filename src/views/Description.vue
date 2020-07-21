@@ -3,6 +3,7 @@
     <Navbar/>
     <Three_content/>
     <Table/>
+    <Bullet_text/>
     <Footer/>
   </div>
 </template>
@@ -11,6 +12,7 @@
 import Navbar from '../components/description/Navbar.vue'
 import Three_content from '../components/description/Three_content.vue'
 import Table from '../components/description/Table.vue'
+import Bullet_text from '../components/description/Bullet_text.vue'
 import Footer from '../components/Footer.vue'
 
 
@@ -20,6 +22,7 @@ export default {
     Navbar,
     Three_content,
     Table,
+    Bullet_text,
     Footer,
   }
 }

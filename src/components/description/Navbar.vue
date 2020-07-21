@@ -18,7 +18,14 @@
                         <router-link to="/description"><b>Description of the activity</b></router-link>
                     </li>
                     <li>
-                        <router-link to="">Results</router-link>
+                        <router-link to="/results">Results</router-link>
+                    </li>
+                     <li>
+
+                        <a href="https://forms.gle/evnzg29MNrym3oyY8" id="survey" class="survey">
+                            Complete the questionnaire
+                        </a>
+
                     </li>
                 </ul>
 
@@ -52,7 +59,23 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-nav-container {
+
+.survey {
+    background: #A80315;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 35px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-container {
   background-color: white;
 }
 
@@ -71,7 +94,7 @@ nav-container {
 
 nav {
   margin: auto;
-  width: 80%;
+  width: 100%;
   min-height: 10vh;
   display: -webkit-box;
   display: -ms-flexbox;

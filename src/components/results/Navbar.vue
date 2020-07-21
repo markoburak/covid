@@ -2,14 +2,14 @@
 <div id="nav-container" class="nav-container">
             <nav id="navbar">
                 <div class="image_logo">
-                    <router-link to="/covid"><img id="logo" alt="CEI logo" src="../assets/CEI.png"></router-link>
-                    <router-link to="/covid"><img id="logo2" alt="stop logo" src="../assets/stop_covid.png"></router-link>
+                    <router-link to="/covid"><img id="logo" alt="CEI logo" src="../../assets/CEI.png"></router-link>
+                    <router-link to="/covid"><img id="logo2" alt="stop logo" src="../../assets/stop_covid.png"></router-link>
                     
                 </div>
 
                 <ul id="myLinks">
                     <li>
-                       <router-link to="/covid"><b>Home</b></router-link>
+                       <router-link to="/covid">Home</router-link>
                     </li>
                     <li>
                          <router-link to="/applicant">General information</router-link>
@@ -18,7 +18,7 @@
                         <router-link to="/description">Description of the activity</router-link>
                     </li>
                     <li>
-                        <router-link to="/results">Results</router-link>
+                        <router-link to="/results"><b>Results</b></router-link>
                     </li>
                      <li>
 
@@ -60,10 +60,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-
-nav-container {
-  background-color: white;
-}
 .survey {
     background: #A80315;
     padding: 10px;
@@ -78,6 +74,11 @@ nav-container {
     font-weight: bold;
     font-size: 18px;
 }
+
+.nav-container {
+  background-color: white;
+}
+
 #hamburger {
   display: none;
 }
