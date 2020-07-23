@@ -8,8 +8,9 @@
                 <div class="social">
 
                     <img class="ico" src="../assets/insta.png" alt="">
-                    <img class="ico" src="../assets/telegram.png" alt="">
-                    <img class="ico" src="../assets/facebook.png" alt="">
+                    <a href="https://t.me/stopcovid19pro"><img class="ico" src="../assets/telegram.png" alt=""></a>
+                    <a href="https://www.facebook.com/Stop-Covid19-100246368451312/"><img class="ico" src="../assets/facebook.png" alt=""></a>
+
 
                 </div>
             </div>

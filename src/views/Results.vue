@@ -1,6 +1,8 @@
 <template>
   <div id="results">
     <Navbar/>
+
+    <Results_Text/>
     <Results_Info/>
     <Footer/>
   </div>
@@ -8,6 +10,8 @@
 
 <script>
 import Navbar from '../components/results/Navbar.vue'
+
+import Results_Text from '../components/results/Results_Text.vue'
 import Results_Info from '../components/results/Results_Info.vue'
 import Footer from '../components/Footer.vue'
 
@@ -16,6 +20,7 @@ export default {
   name: 'Results',
   components: {
     Navbar,
+    Results_Text,
     Results_Info,
     Footer,
   }
