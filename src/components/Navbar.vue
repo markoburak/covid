@@ -9,7 +9,7 @@
 
                 <ul id="myLinks">
                     <li>
-                       <router-link to="/covid"><b>Home</b></router-link>
+                       <router-link to="/"><b>Home</b></router-link>
                     </li>
                     <li>
                          <router-link to="/applicant">General information</router-link>
