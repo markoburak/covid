@@ -2,12 +2,12 @@
 
         <footer>
             <div class="center_footer_text">
-                <h1 id="footer_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</h1>
+                <h1 id="footer_text">COVID-19 Extraordinary Call for Proposals</h1>
             </div>
             <div class="center_social">
                 <div class="social">
 
-                    <img class="ico" src="../assets/insta.png" alt="">
+                   
                     <a href="https://t.me/stopcovid19pro"><img class="ico" src="../assets/telegram.png" alt=""></a>
                     <a href="https://www.facebook.com/Stop-Covid19-100246368451312/"><img class="ico" src="../assets/facebook.png" alt=""></a>
 
@@ -88,7 +88,7 @@ footer .social {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: flex-start;
 }
 
 footer .center_image {

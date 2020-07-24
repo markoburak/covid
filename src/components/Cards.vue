@@ -27,7 +27,7 @@
                     <router-link to="/results"><h1 class="title_text"><u>Results</u></h1></router-link>
                 </div>
                 <div class="article">
-                    <h3 class="article_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </h3>
+                    <h3 class="article_text">The dataset for COVID19 resistance prediction is used.<br><br> The results will be published in European scientific journals and will be implemented on at the level of the project participants.</h3>
                 </div>
             </div>
 
